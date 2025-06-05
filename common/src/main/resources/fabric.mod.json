@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "teleportfx",
+	"version": "${version}",
+	"name": "TeleportFX",
+	"description": "Enhanced teleport commands with stunning visual effects and sounds - No OP required!",
+	"authors": [
+		"Francisco Abreu dos Santos"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/teleportfx/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.francisco.teleportfx.TeleportFX"
+		],
+		"fabric-datagen": [
+			"net.francisco.teleportfx.TeleportFXDataGenerator"
+		]
+	},
+	"mixins": [
+		"teleportfx.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
