@@ -81,6 +81,6 @@ This mod is licensed under the MIT License. See the [LICENSE](LICENSE) file for 
 
 TeleportFX is highly configurable via the `tpmod.json` file, which is generated in your server/client `config` folder on the first run.
 
-**For a detailed explanation of all configuration options and their effects, please see the [[tpmod.json Configuration Details Wiki Page](link-to-your-wiki-page)](https://github.com/ChicoFx/TeleportFx/wiki/Configuration-File-(tpmod.json)).**
+**For a detailed explanation of all configuration options and their effects, please see the [Configuration File](https://github.com/ChicoFx/TeleportFx/wiki/Configuration-File-(tpmod.json)).**
 
 Remember, you can reload the configuration in-game without a server restart by using the `/tpmodconfig reload` command (requires appropriate permission).
