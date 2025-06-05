@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "tpmod",
+  "version": "${version}",
+  "name": "TeleportFX",
+  "description": "Enhanced teleportation with visual effects and configuration.",
+  "authors": [
+    "Francisco" // Or your name/username
+  ],
+  "contact": {
+    "homepage": "https://github.com/ChicoFx/TeleportFx/new/main", 
+    "sources": "https://github.com/ChicoFx/TeleportFx/new/main",
+  },
+  "license": "MIT",
+  "icon": "assets/tpmod/icon.png", // Optional: create an icon
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.francisco.teleportfx.TeleportFX"
+    ],
+    "fabric-datagen": [
+      "net.francisco.teleportfx.TeleportFXDataGenerator"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.14", // Check for latest Fabric Loader version
+    "fabric-api": "*",         // Or specific version range
+    "minecraft": "~1.21.1"     // Or your target Minecraft version
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
